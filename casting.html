@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="results"></h1>
+    <script>
+        const results = document.getElementById("results")
+        let val1 = prompt("enter a number");
+        let val2 = prompt("enter a number");
+        //We must cast them
+        val1= Number(val1)
+        val2= Number(val2)
+        results.innerHTML = val1+val2;
+
+        let x = "Dog";
+        let y= "";
+
+        console.log(x, typeof x)
+        //cast y to a boolean
+        x=Boolean(x)
+        console.log(x, typeof x)
+        y=Boolean(y)
+        console.log(y, typeof y)
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Arithmetic Operators</h1>
+    <ul>
+        <li><strong>Operands:</strong> THe values or variables you're doing math with (eg. x+  5), both are Operands</li>
+        <li><strong>Operators:</strong> the symbols that tell the computer what math to do (+-, *, /, %, **) are all operators</li>
+        <li>The order of Operations is (PEMDAS)</li>
+        <ol>
+            <li>Parentheses</li>
+            <li>Exponents</li>
+            <li>Multiplication/Division</li>
+            <li>Addition/Subtraction</li>
+        </ol>
+    </ul>
+    <script>
+        let studentsILike = 46;
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        //addition:
+        studentsILike = studentsILike + 1;
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        //subtraction:
+        studentsILike = studentsILike - 1;
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        //multiplication:
+        studentsILike = studentsILike * 2;
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        //division:
+        studentsILike = studentsILike / 2;
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        //exponents:
+        studentsILike = studentsILike ** 2;
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        //modulus:
+        studentsILike = studentsILike % 2;
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+
+        //augmented assignment operators:
+        studentsILike += 46
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        studentsILike -= 23
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        studentsILike *= 2
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        studentsILike /= 2
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        studentsILike **= 2
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+        studentsILike %= 2
+        console.log(`The number of students Mr. Klins likes: ${studentsILike}`);
+
+        let bennetsPoints = 4;
+        //Increment operator:
+        bennetsPoints++;
+        console.log(`Bennet's points: ${bennetsPoints}`)
+        bennetsPoints--;
+        console.log(`Bennet's points: ${bennetsPoints}`)
+
+    </script>
+</body>
+</html>

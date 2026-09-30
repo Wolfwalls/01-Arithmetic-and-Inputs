@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id=""nameHeader>Welcome <span id="username">Name</span></h1>
+    <label for="myText">Username:</label><input type="text" id="myText" placeholder="Enter your username" maxlength="20">
+    <br />
+    <button id="mySubmit">Submit</button>
+    <script>
+        //getting user input
+        //clunky bad way:
+            /*let laName = prompt("Enter your name");
+            document.getElementById("username").textContent = laName */
+        //better way to get input:
+        const inputbox = document.getElementById("myText");
+        const button=document.getElementById("mySubmit");
+
+        //handle the button click
+        button.addEventListener("click", function (){
+            let username= inputbox.value;
+        console.log(`username: ${username}`); 
+        });
+        
+        
+    </script>
+</body>
+</html>
